@@ -1,11 +1,13 @@
+# just do 8 sets of for i in 62
 import keyboard as k
 import time as t
 
+
 t.sleep(2)
-b = 1917073100000000000000
-while(b < 1917073100000000000002):
+b = 100
+while(True):
     #----
-    l = [0,0,0,0,0,0,0,0]
+    l = [10,10,10,10,10,10,0,0]
     for i in range(b):
         l[0] += 1
         for j in range(len(l)):
@@ -27,9 +29,9 @@ while(b < 1917073100000000000002):
     #----
     # k.write(s)
     # k.press_and_release('enter')
-    print(s)
+    print(s, " -- ", b)
     b += 1
-    t.sleep(1)
+    # t.sleep(1)
 
 # l = [0]
 # for i in range(9+4):
